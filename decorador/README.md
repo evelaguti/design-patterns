@@ -1,4 +1,5 @@
 
+# Decorator
 
 ## Tambien conocido como
 Wrapper
@@ -118,7 +119,7 @@ public class Crema extends DecoradorCondimentos {
 }
 ```
 
-Finalmente nos preparamos para hacer café con las siguientes lineas.
+Finalmente nos preparamos a hacer café con las siguientes lineas.
 
 ```java
 // Café expresso
