@@ -8,15 +8,15 @@ Agregar nuevas responsabilidades a un objeto de manera dinámica, los decoradore
 
 ## Explicación
 
-Ejemplo Real
+#### Ejemplo Real
 
 > Hay una cafetería en donde se necesita llevar cuenta de los costos asociados al agregar nuevos condimentos al café. 
 
-En pocas palabras
+#### En pocas palabras
 
 >El patron decorador te da la posibilidad de cambiar el comportamiento del objeto en caliente envolviendolo en un objeto decorativo
 
-Wikipedia dice
+#### Wikipedia dice
 
 > En la programación orientada a objetos, el patrón de decorador es un patrón de diseño que permite que el comportamiento se agregue a un objeto individual, ya sea estática o dinámicamente, sin afectar el comportamiento de otros objetos de la misma clase. El patrón decorador es a menudo útil para cumplir con el Principio de Responsabilidad Individual, ya que permite que la funcionalidad se divida entre clases con áreas de preocupación únicas.
 
@@ -121,7 +121,7 @@ public class Crema extends DecoradorCondimentos {
 Finalmente nos preparamos para hacer café con las siguientes lineas.
 
 ```java
-// Café de expresso
+// Café expresso
 Bebestible cafe = new Expresso();
 // Agregando mocha
 cafe = new Mocha(cafe);
